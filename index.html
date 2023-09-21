@@ -7,69 +7,127 @@
 	<title>Product Landing Page</title>
 </head>
 <body>
-	<header>
-		<img src="images/logo.png" alt="logo" loading="lazy" width="75" height="75">
-		<ul>
-			<li>About Us</li>
-			<li>Products</li>
-			<li>Why Choose Us</li>
-			<li>Contact Us</li>
-		</ul>
+	<header id="header">
+		<div class="logo">
+			<img src="images/logo.png" alt="logo" loading="lazy">
+		</div>
+		<nav class="main_nav">
+			<ul id="nav_list">
+				<li><a class="nav_links" href="#about_the_company">About Us</a></li>
+				<li><a class="nav_links" href="#products">Products</a></li>
+				<li><a class="nav_links" href="#why_choose_us">Why Choose Us</a></li>
+				<li><a class="nav_links" href="#contant_us">Contact Us</a></li>
+			</ul>	
+		</nav>		
 	</header>
 	
-	<main>
-		<!-- About Us -->
-		<section>
-			<span>ABOUT THE COMPANY</span>
-			<h2>One Stop Solution For All Your Print Consumables</h2>
-			<p>
-				Get uncompromised print consumables and supplies from IPS, your one-stop-shop solution. An ISO 9001:2008 Certified Company for the supply of Print Consumables and Labels With manufacturing facilities in the MEA & SEA region, we produce a broad range of print consumables for various application. For decades, we have been the printing partners for many multinational companies in the retail, hospitality and financial sectors. Our manufacturing expertise and strong regional logistics presence positions us as the leading supplier of paper rolls, labels, security documents and laser cartridges in the MEA & SEA region. Here is why we are called the leaders in the market: 
-			</p>
-			<ul>
-				<li>Over 4 Decades of market knowledge, having been established in 1978.</li>
-				<li>Local offices in 9 major cities throughout the MEA & SEA Region.</li>
-				<li>Over 2 decades worth of expertise in secure cheque solutions and security documents.</li>
-				<li>OEM certifications and approvals for the provision of ATM & POS rolls to maximize machine performance and uptime.</li>
-				<li>The largest paper roll converter in the region providing design expertise and ensuring we ramin competitive through operational efficiencies.</li>
-			</ul>
-		</section>
+	<main class="main">
+		<div class="first_image">
+			<img src="images/first_image.jpg" alt="first image as background">
+			<div class="tag_line">
+				<h2>
+					A One-Stop-Shop for all your print<br>consumable requirements
+				</h2>
+			</div>
+		</div>
+		<div class="main_page">
 
-		<!-- Products -->
-		<section></section>
-		
-		<!-- Why Choose Us -->
-		<section>
-			<section>
-				<span>OUR EXPERTISE</span>
-				<h2>Why Choose Us</h2>
+			<!-- About Us -->
+			<section id="about_the_company">
+				<span>ABOUT THE COMPANY</span>
+				<h2>One Stop Solution For All Your Print Consumables</h2>
 				<p>
-					With over 40+ years of existence in the region and serving top Financial, Retail, Hospitality & manufacturing sectors across the Middle East Africa & South East Asia region, IPS stands out in Print consumables like Thermal Paper Rolls, ATM Rolls, EFTPOS rolls, Security documents like Cheques printing, Labels and Laser Toner solutions complying with all the industry protocols. The state-of-the-art equipment with central bank compliant instrument empowers IPS to give an enhanced printing experience to the client and its customers. With specialized features to avoid duplication of the security documents, forgery can be avoided at all cost.
+					Get uncompromised print consumables and supplies from IPS, your one-stop-shop solution. An ISO 9001:2008 Certified Company for the supply of Print Consumables and Labels With manufacturing facilities in the MEA & SEA region, we produce a broad range of print consumables for various application. For decades, we have been the printing partners for many multinational companies in the retail, hospitality and financial sectors. Our manufacturing expertise and strong regional logistics presence positions us as the leading supplier of paper rolls, labels, security documents and laser cartridges in the MEA & SEA region. Here is why we are called the leaders in the market: 
 				</p>
+				<ul>
+					<li>Over 4 Decades of market knowledge, having been established in 1978.</li>
+					<li>Local offices in 9 major cities throughout the MEA & SEA Region.</li>
+					<li>Over 2 decades worth of expertise in secure cheque solutions and security documents.</li>
+					<li>OEM certifications and approvals for the provision of ATM & POS rolls to maximize machine performance and uptime.</li>
+					<li>The largest paper roll converter in the region providing design expertise and ensuring we ramin competitive through operational efficiencies.</li>
+				</ul>
 			</section>
-			<section>
-				<article>
-					<img src="">
-					<h3>Single Source Supplier</h3>
-					<p>
-						Our Local offices in 9 major cities throughout the MEA & SEA Region enables us to become a single source supplier for all your print consumable needs across the region.
-					</p>
-				</article>
-				<article>
-					<img src="">
-					<h3>Low Cost Manufacturer</h3>
-					<p>
-						Our enormous capacity to produce consumable makes us affordable for the banks, financial institutions, retail stores and other industries. Economies of Scale helps in reduction of Cost without compromising on the OEM like quality.
-					</p>
-				</article>
-				<article>
-					<img src="">
-					<h3>Printing Secure Documents</h3>
-					<p>
-						Our in-house cheque printing equipment enables us to provide personalizations and MICR coding.
-					</p>
-				</article>
+
+			<!-- Products -->
+			<section id="products">
+				<header>
+					<span>OUR PRODUCTS</span>
+					<h2>What We Do?</h2>
+				</header>
+				<section>
+					<article>
+						<img src="images/atm_rolls.jpg">
+						<h3>ATM Rolls & Ribbons</h3>
+						<p>We provide certified media approved ATM rolls & ATM Ribbons for all Brands & Models.</p>
+					</article>
+					<article>
+						<img src="images/pos_rolls.jpg">
+						<h3>EFTPOS/POS Rolls</h3>
+						<p>Our Printed & Blank rolls are designed to support your operations & marketing teams.</p>
+					</article>
+					<article>
+						<img src="images/laser_toners.jpg">
+						<h3>Laser Toners</h3>
+						<p>Our laser cartridges are designed to meet or exceed the OEM page yield and deliver.</p>
+					</article>
+					<article>
+						<img src="images/security_docs.jpg">
+						<h3>Security Documents</h3>
+						<p>Our broad portfolio of security features are designed to prevent forgery and duplication.</p>
+					</article>
+					<article>
+						<img src="images/labels.jpg">
+						<h3>Labels</h3>
+						<p>A complete one stop solution for all your labelling needs for various applications and industries.</p>
+					</article>
+					<article>
+						<img src="images/paper_bags.jpg">
+						<h3>Paper Bags</h3>
+						<p>Environmental sustainability is important for the world and at IPS we only offer paper bags.</p>
+					</article>
+				</section>			
 			</section>
-		</section>
+
+			<!-- Why Choose Us -->
+			<section id="why_choose_us">
+				<section>
+					<span>OUR EXPERTISE</span>
+					<h2>Why Choose Us</h2>
+					<p>
+						With over 40+ years of existence in the region and serving top Financial, Retail, Hospitality & manufacturing sectors across the Middle East Africa & South East Asia region, IPS stands out in Print consumables like Thermal Paper Rolls, ATM Rolls, EFTPOS rolls, Security documents like Cheques printing, Labels and Laser Toner solutions complying with all the industry protocols. The state-of-the-art equipment with central bank compliant instrument empowers IPS to give an enhanced printing experience to the client and its customers. With specialized features to avoid duplication of the security documents, forgery can be avoided at all cost.
+					</p>
+				</section>
+				<section>
+					<article>
+						<img src="">
+						<h3>Single Source Supplier</h3>
+						<p>
+							Our Local offices in 9 major cities throughout the MEA & SEA Region enables us to become a single source supplier for all your print consumable needs across the region.
+						</p>
+					</article>
+					<article>
+						<img src="">
+						<h3>Low Cost Manufacturer</h3>
+						<p>
+							Our enormous capacity to produce consumable makes us affordable for the banks, financial institutions, retail stores and other industries. Economies of Scale helps in reduction of Cost without compromising on the OEM like quality.
+						</p>
+					</article>
+					<article>
+						<img src="">
+						<h3>Printing Secure Documents</h3>
+						<p>
+							Our in-house cheque printing equipment enables us to provide personalizations and MICR coding.
+						</p>
+					</article>
+				</section>
+			</section>
+
+			<!--Contact Us-->
+			<section id="contant_us">
+				<h1>THIS SECTION IS FOR CONTACT US FORM.</h1>
+
+			</section>
+		</div>
 	</main>
 
 	<footer>
