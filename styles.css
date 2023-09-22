@@ -11,6 +11,12 @@ html {
 
 body {
 	margin: auto;
+	line-height: 1.5;
+}
+
+h2 {
+	font-size: 32px;
+
 }
 
 #header {
@@ -75,9 +81,56 @@ body {
 
 }
 
-
 .main_page {
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
+#about_the_company {
+	display: flex;
+	margin: 100px auto;
+	
+}
+
+.about_us_images {
+	width: 60%;
+	position: relative;
+}
+
+.about_us_images > figure {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+
+#image1 {
+	top: 0;
+	left: 32%;
+}
+
+#image2 {
+	top: 48%;
+	left: 10%;
+}
+
+
+.about_us_text {
+	width: 40%;
+	font-size: 1.2rem;
+}
+
+.about_us_text > ul {
+	line-height: 1.8;
+	margin-left: -20px;
+}
+
+.about_us_list li {
+	list-style-image: url('images/checked_scaled.png');
+	position: relative;
+}
+
+.list-text {
+	position: relative;
+	top: -5px;
+}
