@@ -9,14 +9,14 @@
 <body>
 	<header id="header">
 		<div class="logo">
-			<img src="images/logo.png" alt="logo" loading="lazy">
+			<img id="header-img" src="images/logo.png" alt="logo" loading="lazy">
 		</div>
-		<nav class="main_nav">
+		<nav id="nav-bar">
 			<ul id="nav_list">
-				<li><a class="nav_links" href="#about_the_company">About Us</a></li>
-				<li><a class="nav_links" href="#products">Products</a></li>
-				<li><a class="nav_links" href="#why_choose_us">Why Choose Us</a></li>
-				<li><a class="nav_links" href="#contact_us">Contact Us</a></li>
+				<li><a class="nav-link" href="#about_the_company">About Us</a></li>
+				<li><a class="nav-link" href="#products">Products</a></li>
+				<li><a class="nav-link" href="#why_choose_us">Why Choose Us</a></li>
+				<li><a class="nav-link" href="#contact_us">Contact Us</a></li>
 			</ul>	
 		</nav>		
 	</header>
@@ -34,12 +34,14 @@
 			<!-- About Us -->
 			<section id="about_the_company">
 				<div class="about_us_images">
-					<figure id="image1">
-						<img src="images/about_us_1.jpg" alt="about us1">
-					</figure>
-					<figure id="image2">
-						<img src="images/about_us_2.jpg" alt="about us2">
-					</figure>
+					
+
+
+					<p font-size="90px" color="red">ADD VIDEO HERE.</p>
+
+
+
+
 				</div>
 				<div class="about_us_text">
 					<span class="section-heading">ABOUT THE COMPANY</span>
@@ -168,13 +170,13 @@
 					<h2>Get in Touch</h2>
 				</header>
 				<!--<section id="contact-form">-->
-					<form action="https://www.freecodecamp.com/email-submit" method="POST" id="contact-form">
+					<form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
 						<fieldset id="customer-info">
 							<label class="info">
 								<input id="name" type="text" placeholder="Name" required>
 							</label>
 							<label class="info">
-								<input id="email "type="email" name="email" placeholder="Email" required>
+								<input id="email" type="email" name="email" placeholder="Email" required>
 							</label>
 							<label class="info">
 								<input type="text" name="company" placeholder="Company Name" required>
@@ -188,41 +190,50 @@
 								<textarea rows="6" placeholder="Message"></textarea>
 							</label>
 						</fieldset>
-						<input type="submit" name="submit" value="Send Message">		
+						<input type="submit" name="submit" id="submit" value="Send Message">		
 					</form>
 					<!--</section>-->
 				</section>
 			</div>
 		</main>
 
-		<footer>
-			<section>
-				<section>
-					<img src="images/logo.png" alt="logo" loading="lazy" width="75" height="75">
+		<footer class="footer">
+			<section class="top-footer">
+				<div>
+					<div class="image-div">
+						<img class="image-footer" src="images/logo-white.png" alt="logo" loading="lazy">
+					</div>
 					<p>
 						We are one of the largest manufacturers and traders of print consumables in the Middle East Africa and South East Asia region – cartridges, forms, labels, thermal transfer ribbons, cleaning solutions and other.
 					</p>
-				</section>
-				<section>
+				</div>
+				<div>
 					<h4>Contact Info</h4>
-					<ul>
+					<ul class="contact-list">
 						<li>Plot No. MO-0265, Street No. N403</li>
 						<li>Jebel Ali Free Zone, Dubai, UAE</li>
 						<li>P.O. Box No. 263602</li>
-						<li>+971 4 8128927</li>
-						<li>enquiries@ipsmea.com</li>
+						<li><a class="tel-no" href="tel:+97148128927">+971 4 8128927</a></li>
+						<li><a class="email" href="mailto:enquiries@ipsmea.com">enquiries@ipsmea.com</a></li>
 					</ul>
-					<ul>
-						<li>Facebook link</li><!-- Facebook -->
-						<li>LinkedIn link</li><!-- LinkedIn -->
-						<li>Twitter link</li><!-- Twitter -->
+					<ul class="icons">
+						<li>
+							<a href="https://www.facebook.com/ipsmea" target="_blank"><img class="icon" src="images/facebook.png"></a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/company/ips-mea" target="_blank"><img class="icon" src="images/linkedin.png"></a>
+						</li>
+						<li>
+							<a href="https://twitter.com/MeaIps" target="_blank"><img class="icon" src="images/twitterx.png"></a>
+						</li>
 					</ul>
 
-				</section>
+				</div>
 			</section>
-			<section>
-				<p>IPS@2023 All Rights Reserved</p>
-				<p>Designed by TT</p>			
+			<section class="bottom-footer">
+				<div class="bottom-footer-inner-section">
+					<p>IPS@2023 All Rights Reserved | Designed by TT</p>
+				</div>
 			</section>
 		</footer>
 	</body>

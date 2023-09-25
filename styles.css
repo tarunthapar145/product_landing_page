@@ -22,6 +22,11 @@ h3 {
 	font-size: 28px;
 }
 
+h4 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
 #header {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -35,7 +40,7 @@ h3 {
 	width: 27vw;
 }
 
-.logo img {
+.header-img {
 	width: 75px;
 	height: 75px;
 }
@@ -54,12 +59,12 @@ h3 {
 	font-weight: 500;
 }
 
-.nav_links {
+.nav-link {
 	text-decoration: none;
 	color: #000;
 }
 
-.nav_links:visited {
+.nav-link:visited {
 	color: #000;
 }
 
@@ -92,6 +97,7 @@ h3 {
 
 #about_the_company {
 	display: flex;
+	flex-direction: row-reverse;
 }
 
 #about_the_company, #products, #why_choose_us, #contact_us {
@@ -110,14 +116,11 @@ h3 {
 	height: auto;
 }
 
-#image1 {
-	top: 0;
-	left: 32%;
-}
-
 #image2 {
-	top: 48%;
-	left: 10%;
+	top: 0;
+	left: 40px;
+	background-size: cover;
+	object-fit: fill;
 }
 
 .section-heading {
@@ -265,3 +268,84 @@ input[type="submit"] {
 	margin: 5px 0;
 }
 
+.footer {
+	font-size: 1.1rem;
+	background-color: #121626;
+	color: #fff;
+}
+
+.top-footer {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	column-gap: 150px;
+	padding-top: 100px;
+}
+
+.top-footer > div {
+	width: 30%;
+}
+
+.image-div {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.image-footer {
+	width: 125px;
+	height: auto;
+}
+
+.contact-list {
+	padding-left: 0;
+	line-height: 1.8;
+
+}
+
+.contact-list li {
+	list-style: none;
+
+}
+
+.tel-no, .email {
+	text-decoration: none;
+	color: #fff;
+}
+
+.tel-no:hover, .email:hover {
+	text-decoration: underline;
+}
+
+.tel-no:visited, .email:visited {
+	color: #fff;
+}
+
+.icons {
+	padding-left: 0;
+	display: flex;
+	flex-direction: row;
+}
+
+.icons li {
+	list-style: none;
+	margin: 0 5px 0 0;
+}
+
+.icon {
+	padding: 5px;
+	border: 1px solid #fff;
+}
+
+.bottom-footer {
+	background-color: #0c0f1a;
+	color: #fff;
+}
+
+.bottom-footer-inner-section {
+	max-width: 1200px;
+	margin: 100px auto 0 auto;
+	padding: 13px 0;
+	text-align: center;
+}
